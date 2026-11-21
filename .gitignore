@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+tmp/
+temp/
+.env*
+test-output/
+test-results/
+coverage/
+.agents/
+.claude/
+/skills-lock.json

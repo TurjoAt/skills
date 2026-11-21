@@ -1,0 +1,17 @@
+name: Test
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: shellcheck tests/*.sh skills/ai-search-visibility-audit/scripts/*.sh
+      - run: bash tests/lint-frontmatter.sh
+      - run: bash tests/install-test.sh "$GITHUB_WORKSPACE"
+      - run: bash skills/ai-search-visibility-audit/scripts/check-site.sh https://example.com
+        continue-on-error: true
