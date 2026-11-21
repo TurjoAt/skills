@@ -20,7 +20,7 @@ Crawl access and valid markup do not guarantee indexing, rankings, or citations.
 ## Quick start
 
 ```sh
-npx skills add nextctl/skills --skill ai-search-visibility-audit
+npx skills add turjoat/skills --skill ai-search-visibility-audit
 ```
 
 Then ask your agent to audit a public site for AI search visibility. Give it the preferred origin, important URL types, and your policy for search, training, and user-triggered fetches. The included script can be run against a homepage origin:

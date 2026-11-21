@@ -21,7 +21,7 @@ The skill will not invent a price, square footage, dimension, school rating, dis
 ## Quick start
 
 ```sh
-npx skills add nextctl/skills --skill real-estate-listing-to-content
+npx skills add turjoat/skills --skill real-estate-listing-to-content
 ```
 
 Then give your agent a verified listing, or ask it to start from the intake form, and request the full content package. Do not publish the drafts until the publisher has checked prices, media rights, links, disclosures, and schema.

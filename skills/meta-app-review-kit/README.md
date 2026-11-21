@@ -22,7 +22,7 @@ The skill does not submit the review for you, and it does not change Meta's deci
 ## Quick start
 
 ```sh
-npx skills add nextctl/skills --skill meta-app-review-kit
+npx skills add turjoat/skills --skill meta-app-review-kit
 ```
 
 Then ask your agent to prepare a Meta App Review submission for your Facebook Page and Instagram publishing features. Have your current app settings, the permissions you think you need, and a test Page with a linked Instagram professional account ready.

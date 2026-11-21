@@ -29,7 +29,7 @@ It starts from confirmed facts and will not invent a price, measurement, or neig
 Requires [Node.js](https://nodejs.org/) 22.20 or later. From your project:
 
 ```sh
-npx skills add nextctl/skills
+npx skills add turjoat/skills
 ```
 
 The CLI will prompt you to choose which skills to install and which coding agents to add them to.
@@ -37,15 +37,15 @@ The CLI will prompt you to choose which skills to install and which coding agent
 To install one skill:
 
 ```sh
-npx skills add nextctl/skills --skill meta-app-review-kit
-npx skills add nextctl/skills --skill ai-search-visibility-audit
-npx skills add nextctl/skills --skill real-estate-listing-to-content
+npx skills add turjoat/skills --skill meta-app-review-kit
+npx skills add turjoat/skills --skill ai-search-visibility-audit
+npx skills add turjoat/skills --skill real-estate-listing-to-content
 ```
 
 To list the skills in the repo without installing them:
 
 ```sh
-npx skills add nextctl/skills --list
+npx skills add turjoat/skills --list
 ```
 
 ## About NextCTL
@@ -70,7 +70,7 @@ bash tests/install-test.sh
 bash skills/ai-search-visibility-audit/scripts/check-site.sh https://example.com
 ```
 
-The lint uses Bash and awk. The installation test needs Git, Node.js with npm, and access to the CLI package if it is uncached. Pass `nextctl/skills` as the source to test the published repo. The site smoke check uses curl and prints its outcome in the summary.
+The lint uses Bash and awk. The installation test needs Git, Node.js with npm, and access to the CLI package if it is uncached. Pass `turjoat/skills` as the source to test the published repo. The site smoke check uses curl and prints its outcome in the summary.
 
 ## Contributing
 
@@ -78,4 +78,4 @@ Open an issue or pull request with the workflow affected and the checks you ran.
 
 ## License
 
-[MIT](LICENSE). Copyright (c) 2026 NextCTL LTD.
+[MIT](LICENSE). Copyright (c) 2026 NextCTL LLC.
